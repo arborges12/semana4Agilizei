@@ -1,0 +1,21 @@
+Comandos iniciais
+
+init - inicializar um projeto
+install - instalar pacotes
+unistall - desinstalar pacotes;
+
+Para inicializar um projeto realizar o seguinte comando.
+
+1. npm init --yes
+2. npm install -D pacote@8.5.0 (informar a versão cypress)
+3. Criar estrutura de pasta padrão.
+3.1 cypress open / npx = node package executor = npx cypress open
+4. Modo de execução headless - npx cypress run
+
+Aplicação para teste http://twitter-clone-example.herokuapp.com/
+
+Guia de boa praticas do javascript
+.
+1. O que está sendo testado? Twitter Clone, login.
+2. Sob que circunstancias, condições? Ao autenticar com credenciais válidas.
+3. Qual o resultado esperado? Deve ser direcionado para o feed.
